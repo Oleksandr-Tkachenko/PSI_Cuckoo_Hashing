@@ -11,8 +11,9 @@ The elements that caused collisions will be switchid with tree's elements and
 put back into the tree, where they will stay until next dumping routine.
 
 While dealing with large inputs it is recommended to set the very high 
-threshold value for the binary search tree size, so that by dumping its elements 
-there will be a high probability of writing few elements into a single sector.
+threshold value for the binary search tree size(read buffer size), so that by 
+dumping its elements there will be a high probability of writing few elements 
+into a single sector.
 
 E.g.:
 Cuckoo Hashing table size = 10^9 * 1.2
