@@ -63,4 +63,5 @@ Stronger than table size multiplier
 * -z _1_ Reduction of elements 16(19) to 10 bytes. Table additions are also 
 removed, because there is no need to calculate bin addresses.
 
+---
 http://encrypto.de
